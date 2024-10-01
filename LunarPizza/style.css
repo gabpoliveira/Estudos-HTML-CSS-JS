@@ -1,0 +1,13 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #22181c;
+    color: #f6e8ea;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
