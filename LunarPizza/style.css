@@ -34,7 +34,7 @@ header{
 nav{
     margin: auto;
     max-width: 1120px;
-    padding:1.5rem 10rem;
+    padding:1.5rem 8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,18 +63,161 @@ li > a{
     background-color: #e9df00;
     color:#22181c;
     border: none;
-    border-radius: 15%;
+    border-radius: 30px; /* Borda arredondada */
     font-size: 20px;
-    width: 80px;
+    width: 160px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contato > a{
+    color: #22181c;
+}
+
+.contato:hover{
+    background-color: #b9b113;
+    font-weight: 450;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido {
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre o texto e a imagem */
+    align-items: center; /* Alinha verticalmente */
     background-color: #940d0d;
 }
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.conteudo > hr{
+    color: #f6e8ea;
+    width: 250px
+}
+
+.conteudo > p{
+    font-size: 17px;
+}
+
+.imagem-pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza1 {
+    width: 400px;
+    height: 400px;
+}
+
+.fzrpedido{
+    margin: 4rem;
+    background-color: #e9df00;
+    color:#22181c;
+    border: none;
+    border-radius: 30px; /* Borda arredondada */
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+.fzrpedido > a{
+    color: #22181c;
+}
+
+.fzrpedido:hover{
+   background-color: #b9b113;
+   font-weight: 450;
+}
+
+.quem-somos{
+    color: #22181c;
+    background-color: #f6e8ea;
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.qmcont > hr{
+    margin: 15px 0;
+    width: 250px;
+    color: #22181c;
+}
+
+.qmcont > p{
+    margin-bottom: 20px;
+    gap: 2rem;
+    line-height: 1.8
+}
+
+.pizzaolo{ 
+    width: 400px;
+    height: 400px;
+    padding-left: 6rem;
+}
+
+.cardapio {
+    background-color: #22181c;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: column; 
+}
+.categoria-menu > h3{
+    padding: 2rem 0;
+    color: #e9df00;
+}
+.menu-section > hr {
+    color: #f6e8ea;
+    margin: 1rem 0;
+    width: 200px;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 0; 
+}
+
+.item-menu > p {
+    margin: 0; /* Remove a margem padrão */
+    flex: 1; /* Permite que o texto ocupe o espaço disponível */
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
 
 footer{
     background-color: #22181c;
+    text-align: center;
 }
 
 footer > a{
